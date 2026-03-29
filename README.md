@@ -120,3 +120,16 @@ If something goes wrong (e.g. no transmission, abnormal behavior, or misconfigur
 - Recover normal operation  
 
 ⚠️ Skipping this step may leave you without a working configuration, making recovery difficult.
+
+---  
+
+## Tool for memory management (import/export from/to CSV)
+
+You can use the python script provider [here](https://github.com/vegos/Hiroyasu_IC-980Pro_Max) to export to CSV or import channel memories for your radio.  
+An easy way to edit/clone/etc memories.  
+
+---
+
+## Author
+
+Antonis Maglaras — ©2026
