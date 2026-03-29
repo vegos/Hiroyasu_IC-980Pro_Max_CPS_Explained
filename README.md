@@ -80,7 +80,20 @@
 |--------|--------|----------|
 | 读取 | Read | Read settings from radio |
 | 写入 | Write | Write settings to radio |
-| 全写 | Write All | Write all parameters |
+| 全写 | Write All | Write all parameters to radio |
 | 新建 | New | Create new configuration |
 | 打开 | Open | Open configuration file |
 | 保存 | Save | Save configuration file |
+
+---
+
+## Adjustment Menu Passwords
+
+- ww01  
+- wwuser  
+- wwpd  
+- wwband  
+- wwjxs  
+- updated  
+- logo  
+  Change Logo. Must be bitmap, 16bit.
