@@ -99,3 +99,21 @@
 - updated  
 - logo  
   Change Logo. Must be bitmap, 16bit  
+
+---
+
+### ⚠️ Important – Backup Before Making Changes
+
+Before modifying any settings in the CPS:
+
+> **Always perform a "Read" from the radio and save the configuration file.**
+
+This ensures you have a full backup of the original (factory or working) settings.
+
+If something goes wrong (e.g. no transmission, abnormal behavior, or misconfiguration), you will be able to:
+
+- Restore the saved file  
+- Write it back to the radio  
+- Recover normal operation  
+
+⚠️ Skipping this step may leave you without a working configuration, making recovery difficult.
