@@ -90,10 +90,12 @@
 ## Adjustment Menu Passwords
 
 - ww01  
+  The options defined here  
 - wwuser  
 - wwpd  
 - wwband  
+  Expand RX/TX frequencies by band (UHF/VHF, Min to Max)  
 - wwjxs  
 - updated  
 - logo  
-  Change Logo. Must be bitmap, 16bit.
+  Change Logo. Must be bitmap, 16bit  
