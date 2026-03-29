@@ -2,8 +2,11 @@
 
 ![Original](images/CPS_Adjustment.png)  
 
-![Translated](images/CPS_Adjustment_Translated.png)
+![Translated](images/CPS_Adjustment_Translated.png)  
 
+![Translated](images/CPS_Adjustment_NoText.png)  
+
+---  
 
 ## RF / Audio Parameters
 
