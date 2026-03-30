@@ -90,6 +90,72 @@
 
 ---
 
+![Original](images/CPS_Adjustment_Center.png)  
+
+
+## APC Power Adjustment Table
+
+| Column | Meaning | Description |
+|--------|--------|-------------|
+| Freq | Frequency (MHz) | Reference frequency point for calibration |
+| High Power | TX High Power Level | Output power setting when radio is in high power mode |
+| Low Power | TX Low Power Level | Output power setting when radio is in low power mode |
+| RX Tune | RX Gain Calibration | Receiver calibration value (affects sensitivity and alignment) |
+| RF Out | RF Drive Level | RF output drive level from the chipset (controls PA drive) |
+
+### Notes:
+- Values are frequency-dependent (lookup table behavior)
+- Used to shape TX power curve and RX performance across the band
+- Incorrect values may affect:
+  - Output power
+  - Linearity
+  - Receiver sensitivity
+
+---
+
+## SQ / Noise Table
+
+| Column | Meaning | Description |
+|--------|--------|-------------|
+| Freq | Frequency (MHz) | Frequency threshold (applies up to this frequency) |
+| SQ | Squelch Level | Base squelch threshold value |
+| Noise | Noise Level | Reference noise floor value |
+| Narrow SQ | Narrowband Squelch | Squelch threshold when in narrowband mode |
+| Narrow Noise | Narrowband Noise | Noise reference for narrowband mode |
+
+### Notes:
+- Defines squelch behavior per frequency range
+- Implements hysteresis-based squelch control
+- Wideband vs Narrowband handled separately
+- Affects:
+  - When the receiver opens
+  - Stability of squelch (no chattering)
+
+---
+
+## General Behavior
+
+- Both tables act as **lookup tables (LUTs)**
+- The radio interpolates values between frequency points
+- Used for:
+  - RF calibration
+  - Audio/RF balance
+  - Squelch accuracy
+
+---
+
+## ⚠️ Warning
+
+- These are **factory calibration parameters**
+- Changing them without measurement equipment may result in:
+  - Incorrect TX power
+  - Poor modulation
+  - Receiver desensitization
+  - Unstable squelch behavior
+  - Magic Smoke!   
+
+---
+
 ## Adjustment Menu Passwords
 
 - ww01  
