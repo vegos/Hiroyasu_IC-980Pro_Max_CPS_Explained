@@ -75,24 +75,11 @@
 | 最小 | Min | Minimum frequency |
 | 最大 | Max | Maximum frequency |
 
----
-
-## Buttons
-
-| Chinese | English | Function |
-|--------|--------|----------|
-| 读取 | Read | Read settings from radio |
-| 写入 | Write | Write settings to radio |
-| 全写 | Write All | Write all parameters to radio |
-| 新建 | New | Create new configuration |
-| 打开 | Open | Open configuration file |
-| 保存 | Save | Save configuration file |
-
----
-
+---  
+  
 ![Original](images/CPS_Adjustment_Center.png)  
-
-
+  
+  
 ## APC Power Adjustment Table
 
 | Column | Meaning | Description |
@@ -141,6 +128,19 @@
   - RF calibration
   - Audio/RF balance
   - Squelch accuracy
+
+---  
+
+## Buttons
+
+| Chinese | English | Function |
+|--------|--------|----------|
+| 读取 | Read | Read settings from radio |
+| 写入 | Write | Write settings to radio |
+| 全写 | Write All | Write all parameters to radio |
+| 新建 | New | Create new configuration |
+| 打开 | Open | Open configuration file |
+| 保存 | Save | Save configuration file |
 
 ---
 
