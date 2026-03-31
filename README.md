@@ -214,8 +214,7 @@ Mic → ADC → DSP → Deviation → RF Drive → PA → Antenna
 
 ## Tool for Memory Management
 
-You can use the Python script provided here:  
-https://github.com/vegos/Hiroyasu_IC-980Pro_Max/tree/main/Import-Export_Script
+You can use the Python script provided [here](https://github.com/vegos/Hiroyasu_IC-980Pro_Max/Import-Export_Script).
 
 - Export to CSV  
 - Import channel memories  
