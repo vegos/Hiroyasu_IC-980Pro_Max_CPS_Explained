@@ -1,6 +1,6 @@
 # Hiroyasu IC-980Pro Max CPS (8110) Adjustment Menu – Translation & Function Reference
 
-* UPDATE: https://github.com/vegos/Hiroyasu_IC-980Pro_Max *  
+* UPDATE: https://github.com/vegos/Hiroyasu_IC-980Pro_Max
   
 ![Original](images/CPS_Adjustment.png)  
 ![Translated](images/CPS_Adjustment_Translated.png)  
